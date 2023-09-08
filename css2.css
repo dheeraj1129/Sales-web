@@ -1,0 +1,49 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.review {
+  border: 1px solid #ccc;
+  margin: 2rem;
+  text-align: center;
+  width: 76;
+  height: max-content;
+  font-size: 22px;
+}
+
+
+
+.review_Price h6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 44px;
+  font-weight: 600;
+  margin-bottom: -4rem;
+}
+
+
+.customer-name {
+  font-weight: bold;
+}
+
+.customer-rating {
+  color: #f39c12;
+}
+
+.customer-comment {
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}

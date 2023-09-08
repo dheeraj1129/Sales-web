@@ -1,0 +1,293 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+
+.header {
+  color: black;
+  text-align: center;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  justify-content: space-around;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+nav ul {
+  float: right;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 3rem;
+
+}
+
+nav ul li a {
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+li a:hover {
+  height: 88%;
+  color: #d7d3ee;
+  transition: transform 0.4s ease-in-out;
+
+}
+
+/* home */
+
+.Home {
+  display: flex;
+  align-items: center;
+  height: max-content;
+  justify-content: center;
+}
+
+.Home_cont {
+  text-align: center;
+  max-width: 800px;
+  padding: 20px;
+  margin-bottom: 6rem;
+}
+
+.Home_3 {
+  display: flex;
+  justify-content: center;
+}
+
+.Home_cont h1 {
+  font-size: 3rem;
+}
+
+.btn {
+  background-color: blue;
+  width: 20%;
+  height: 3rem;
+  font-weight: 800;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+.head_grid {
+  height: max-content;
+  background-color: #b51756;
+}
+
+.head {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  height: max-content;
+  justify-content: center;
+}
+
+.head h1 {
+  font-size: 42px;
+  font-weight: 800;
+}
+
+.grid-container {
+  height: max-content;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+  margin: 10px;
+  height: min-content;
+  cursor: pointer;
+}
+
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+  transition: transform 0.4s ease-in-out;
+  cursor: pointer;
+
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+/* page */
+
+.course {
+  margin-top: 4rem;
+  height: 100vh;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-color: violet;
+
+}
+
+
+.page-content2 {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-content2 {
+  font-size: 53px;
+  font-weight: 900;
+}
+
+.page-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.page-content h3 {
+  margin: 2rem;
+
+}
+
+/* page price */
+.all_heading {
+  height: 100vh;
+  background-color: #b999f5;
+}
+
+.price_heading {
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.price_heading1 {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 2rem;
+
+}
+
+.price_heading h1 {
+  font-size: 34px;
+  font-weight: 800;
+}
+
+.price_heading p {
+  font-size: 24px;
+}
+
+.main_price {
+  height: max-content;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+/* Style for the pricing plan container */
+.pricing-plan {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+  margin: auto;
+  width: 75%;
+  height: min-conten;
+  cursor: pointer;
+}
+
+.price_heading h1 span {
+  color: blue;
+}
+
+/* Style for the plan heading */
+.plan-heading {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+/* Style for the plan price */
+.plan-price {
+  font-size: 1.2em;
+  color: #e74c3c;
+  /* Red color for price */
+  margin: 10px 0;
+}
+
+/* Style for the price description */
+.price-description {
+  margin: 5px 0;
+  font-size: 0.9em;
+}
+
+/* Style for the price note */
+.price-note {
+  font-size: 0.9em;
+  color: #999;
+}
+
+/* Style for the free button */
+.free-button {
+  background-color: #3498db;
+  /* Blue color for button */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  border-radius: 5px;
+  margin: 10px 5px;
+}
+
+/* Style for the demo button */
+.demo-button {
+  background-color: #27ae60;
+  /* Green color for button */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  border-radius: 5px;
+  margin: 10px 5px;
+}
+
+.plan-features {
+  padding: 0;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.plan-features li {
+  margin: 5px 0;
+  font-size: 0.9em;
+}
